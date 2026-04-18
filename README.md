@@ -6,7 +6,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-2.2-150458?logo=pandas)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35-FF4B4B?logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-5.22-3F4F75?logo=plotly)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 **End-to-End Data Analytics Project for Survey & Poll Analysis**
 
