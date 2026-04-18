@@ -1,0 +1,55 @@
+# Python and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (large / generated)
+data/*.csv
+!data/.gitkeep
+
+# Output files (generated)
+outputs/charts/*.png
+outputs/reports/*.txt
+outputs/reports/*.csv
+!outputs/charts/.gitkeep
+!outputs/reports/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
