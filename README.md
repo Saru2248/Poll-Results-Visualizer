@@ -101,16 +101,30 @@ Dashboard / Reports
 
 Poll-Results-Visualizer/
 │
-├── data/ # Raw & cleaned datasets
-├── notebooks/ # EDA analysis
-├── src/ # Core modules
-├── outputs/ # Charts & reports
-├── images/ # Screenshots
-├── dashboard.py # Streamlit dashboard
-├── main.py # Pipeline script
-├── requirements.txt
-└── README.md
-
+├── data/                  # Raw & cleaned datasets
+│   ├── poll_data.csv
+│   └── poll_data_cleaned.csv
+│
+├── notebooks/             # EDA notebooks / scripts
+│   └── eda_analysis.ipynb
+│
+├── src/                   # Core source code
+│   ├── data_generator.py
+│   ├── data_cleaner.py
+│   ├── analyzer.py
+│   ├── visualizer.py
+│   └── report_generator.py
+│
+├── outputs/               # Generated charts & reports
+│   ├── charts/
+│   └── reports/
+│
+├── images/                # Screenshots for README
+│
+├── dashboard.py           # Streamlit dashboard
+├── main.py                # Main pipeline script
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
 
 ---
 
